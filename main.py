@@ -35,7 +35,7 @@ def findcolor():
     rgb9 = palette[8]
     rgb10 = palette[9]
 
-# Loop para converter RGB para hexadecimal
+
     cor1  = f'#{rgb1[0]:02x}{rgb1[1]:02x}{rgb1[2]:02x}'
     cor2  = f'#{rgb2[0]:02x}{rgb2[1]:02x}{rgb2[2]:02x}'
     cor3  = f'#{rgb3[0]:02x}{rgb3[1]:02x}{rgb3[2]:02x}'
@@ -79,7 +79,7 @@ def findcolor():
 
 
 # icon
-icone_img = PhotoImage(file='icon_rgb.png')
+icone_img = PhotoImage(file='icons8-rgb-70.png')
 root.iconphoto(False, icone_img)
 
 Label(root,width=120, height=10,bg='#C7C8CC').pack()
